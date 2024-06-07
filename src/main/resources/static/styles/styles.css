@@ -1,0 +1,28 @@
+/* Table Styles */
+table {
+    border-collapse: collapse; /* Ensures borders between cells don't overlap */
+    width: 100%; /* Optional: Set table width to 100% */
+}
+
+th {
+    background-color: #ddd; /* Light gray background for headers */
+    color: #333; /* Dark text color for headers */
+    padding: 5px 10px; /* Add padding to headers */
+    border: 1px solid #ccc; /* Border for headers */
+    text-align: left; /* Align header text to the left */
+}
+
+td {
+    border: 1px solid #ccc; /* Border for table cells */
+    padding: 5px 10px; /* Add padding to cells */
+}
+
+/* Alternate Row Colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+/* Focus style for hover (optional) */
+tr:hover {
+    background-color: #e0e0e0; /* Slightly darker gray on hover */
+}

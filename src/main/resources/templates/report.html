@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Report</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+</head>
+<body>
+<h1>Report</h1>
+
+<h4>Download Report here
+<a href="#" th:href="@{downloadPdf}" target="_blank">Download PDF</a>
+</h4>
+
+<table>
+    <tr>
+        <th th:each="header : ${tableData.keySet()}">
+            <span th:text="${header}"> </span>
+        </th>
+    </tr>
+
+    <tr th:each="row : ${tableData.get(tableData.keySet().iterator().next())}">
+        <td th:each="column : ${tableData.keySet()}">
+            <span th:text="${tableData.get(column).get(__${rowStat.index}__)}"> </span>
+        </td>
+    </tr>
+
+</table>
+</body>
+</html>

@@ -1,0 +1,38 @@
+
+{
+  "secondLevel": [
+    {
+      "thirdLevelOne": {
+        "fourthLevel": {
+          "data": [
+            "Ashok",
+            "Kishor",
+            "Aaron"
+          ]
+        }
+      }
+    },
+    {
+      "thirdLevelTwo": [
+        {
+          "fourthLevel": {
+            "data": [
+              "Ashok",
+              "Kishor",
+              "Aaron"
+            ]
+          }
+        },
+        {
+          "fourthLevel": {
+            "data": [
+              "Ashok",
+              "Kishor",
+              "Aaron"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

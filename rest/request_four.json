@@ -1,0 +1,51 @@
+{
+  "secondLevel":
+  [
+    {
+      "thirdLevel": {
+        "fourthLevel": {
+          "data": [
+            "Ashok",
+            "Kishor",
+            "Ramakrishna"
+          ]
+        }
+      }
+    },
+    {
+      "thirdLevel": [
+        {
+          "fourthLevel": {
+            "data": [
+              "Divya",
+              "Navya",
+              "Sireesha"
+            ]
+          }
+        },
+        {
+          "fourthLevel": {
+            "data": [
+              "Mathews",
+              "Nicholas",
+              "Bhulakshmi"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "thirdLevel": {
+        "fourthLevel": {
+          "fifthLevel": {
+            "data": [
+              "Divya",
+              "Navya",
+              "Sireesha"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
